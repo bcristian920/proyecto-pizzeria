@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -19,20 +20,48 @@
 </head>
 
 <body>
-    <div id="header-container">
-    <div id="logo">
-        <img src="img/pizza.svg" alt="imagen del logo">
-        <img class="logo-texto" src="img/text.svg" alt="texto del logo">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">NOSOTROS</a></li>
-            <li><a href="#">SUCURSALES & DELIVERY</a></li>
-            <li><a href="#">CONTACTO</a></li>
+    <header>
+        <div id="header-container">
+            <div id="logo">
+                <img src="img/pizza.svg" alt="imagen del logo">
+                <img class="logo-texto" src="img/text.svg" alt="texto del logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">SUCURSALES & DELIVERY</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <h2>NUESTRAS PIZZAS</h2>
+        <ul class="gallery">
+            <li>
+                <div class="box">
+                    <figure>
+                        <img src="img/fugazzeta_cleanup.jpg" alt="fugazzeta">
+                        <figcaption>
+                            <h3>Fugazzeta</h3>
+                            <p>$ 12400</p>
+                            <time>23/05/2024</time>
+                        </figcaption>
+                    </figure>
+                    <button class="button" value="1">
+                        Añadir al carrito <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                </div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
-    </nav>
-</div>
+    </div>
 </body>
 
 </html>
